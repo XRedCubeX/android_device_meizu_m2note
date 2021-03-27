@@ -9,3 +9,6 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Fragments include
 -include $(DEVICE_PATH)/board/*.mk
+
+# Manifest
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
