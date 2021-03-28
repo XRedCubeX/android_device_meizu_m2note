@@ -1,8 +1,8 @@
 on boot
 
     # Temp Backward compatibility
-    mkdir /dev/block/platform/mtk-msdc.0/by-name 0777 system system
-    symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system /dev/block/platform/mtk-msdc.0/by-name/system
+    mkdir /dev/block/platform/mtk-msdc.0/by-name 0777 vendor vendor
+    symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/vendor /dev/block/platform/mtk-msdc.0/by-name/vendor
     symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/custom /dev/block/platform/mtk-msdc.0/by-name/custom
     symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/nvdata /dev/block/platform/mtk-msdc.0/by-name/nvdata
     symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/nvram /dev/block/platform/mtk-msdc.0/by-name/nvram
