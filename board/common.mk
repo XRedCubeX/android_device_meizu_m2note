@@ -1,6 +1,6 @@
-# CyanogenMod Hardware Hooks
+# Lineage Hardware Hooks
 BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS := $(DEVICE_PATH)/cmhw/
+BOARD_HARDWARE_CLASS := $(DEVICE_PATH)/lineagehw
 
 #system.prop
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
