@@ -1,5 +1,6 @@
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
+SUPPRESS_MTK_AUDIO_BLOB_ERR_MSG := true
 
 # Audio config
 PRODUCT_COPY_FILES += \
