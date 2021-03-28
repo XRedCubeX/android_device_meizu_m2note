@@ -64,7 +64,8 @@ PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant \
     lib_driver_cmd_mt66xx \
-    android.hardware.wifi@1.0-service
+    android.hardware.wifi@1.0-service \
+    wificond
 
 # Bluetooth
 PRODUCT_PACKAGES += \
