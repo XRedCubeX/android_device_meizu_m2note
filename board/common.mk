@@ -14,3 +14,7 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 # GC tweak
 PRODUCT_TAGS += dalvik.gc.type-precise
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.bluetooth@1.0-service
