@@ -57,7 +57,9 @@ PRODUCT_PACKAGES += com.android.future.usb.accessory
 PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
-    wpa_supplicant
+    wpa_supplicant \
+    lib_driver_cmd_mt66xx \
+    android.hardware.wifi@1.0-service
 
 # Bluetooth
 PRODUCT_PACKAGES += \
