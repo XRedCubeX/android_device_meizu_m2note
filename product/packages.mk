@@ -51,7 +51,9 @@ PRODUCT_PACKAGES += libjni_livedisplay
 PRODUCT_PACKAGES += libprotobuf-cpp-full
 
 # USB
-PRODUCT_PACKAGES += com.android.future.usb.accessory
+PRODUCT_PACKAGES += \
+    com.android.future.usb.accessory \
+    android.hardware.usb@1.0-service
 
 # Wifi
 PRODUCT_PACKAGES += \
