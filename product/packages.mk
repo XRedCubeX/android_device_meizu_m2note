@@ -44,7 +44,8 @@ PRODUCT_PACKAGES += \
 # Power HAL
 PRODUCT_PACKAGES += \
     power.default \
-    power.mt6753
+    power.mt6753 \
+    android.hardware.power@1.0-impl
 
 # LiveDisplay
 PRODUCT_PACKAGES += libjni_livedisplay
