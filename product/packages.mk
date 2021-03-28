@@ -30,7 +30,9 @@ PRODUCT_PACKAGES += \
     libaudiopolicymanagerdefault \
     libtinyalsa \
     libtinycompress \
-    libtinyxml
+    libtinyxml \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio.effect@2.0-impl
 
 #PRODUCT_PACKAGES += libtinymix
 
