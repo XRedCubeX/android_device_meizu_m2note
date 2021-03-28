@@ -15,20 +15,20 @@ on fs
     mkdir /dev/usb-ffs/adb 0770 shell shell
     mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
     write /sys/class/android_usb/android0/f_ffs/aliases adb
-    chown vendor vendor /sys/class/android_usb/android0/f_acm/port_index
+    chown system system /sys/class/android_usb/android0/f_acm/port_index
     chmod 0660 /sys/class/android_usb/android0/f_acm/port_index
 
 
 on post-fs-data
-    chown radio vendor /sys/class/usb_rawbulk/data/enable
+    chown radio system /sys/class/usb_rawbulk/data/enable
     chmod 0660 /sys/class/usb_rawbulk/data/enable
-    chown radio vendor /sys/class/usb_rawbulk/ets/enable
+    chown radio system /sys/class/usb_rawbulk/ets/enable
     chmod 0660 /sys/class/usb_rawbulk/ets/enable
-    chown radio vendor /sys/class/usb_rawbulk/atc/enable
+    chown radio system /sys/class/usb_rawbulk/atc/enable
     chmod 0660 /sys/class/usb_rawbulk/atc/enable
-    chown radio vendor /sys/class/usb_rawbulk/pcv/enable
+    chown radio system /sys/class/usb_rawbulk/pcv/enable
     chmod 0660 /sys/class/usb_rawbulk/pcv/enable
-    chown radio vendor /sys/class/usb_rawbulk/gps/enable
+    chown radio system /sys/class/usb_rawbulk/gps/enable
     chmod 0660 /sys/class/usb_rawbulk/gps/enable
 
 # Used to disable USB when switching states
