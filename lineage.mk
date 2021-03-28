@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := M2 Note
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/moyster/keys/releasekey
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/meizu/m2note/device_m2note.mk)
