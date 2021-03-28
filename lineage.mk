@@ -25,3 +25,7 @@ PRODUCT_DEFAULT_LANGUAGE := en
 PRODUCT_DEFAULT_REGION   := US
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2019-07-20
