@@ -23,7 +23,7 @@ include $(BUILD_SHARED_LIBRARY)
 
 # libshim_ui
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := ui/mtk_ui.cpp
+LOCAL_SRC_FILES := ui/ui_shim.cpp ui/GraphicBuffer.cpp
 LOCAL_SHARED_LIBRARIES := libbinder libui libutils
 LOCAL_MODULE := libshim_ui
 LOCAL_C_INCLUDES := frameworks/native/include
